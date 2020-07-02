@@ -1,0 +1,80 @@
+html {
+	height: 100vh;
+}
+
+body {
+	font-family: 'Crete Round', serif;
+	background-image: url("./bg.jpg");
+
+	/* Full height */
+	height: 100vh;
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+}
+
+.App {
+	width: 60%;
+	text-align: center;
+	position: relative;
+	margin: auto;
+	padding-top: 5%;
+}
+
+.Heading {
+	color: white;
+}
+
+.satan-logo {
+	-webkit-animation: rotating 5s linear infinite;
+  -moz-animation: rotating 5s linear infinite;
+  -ms-animation: rotating 5s linear infinite;
+  -o-animation: rotating 5s linear infinite;
+  animation: rotating 5s linear infinite;
+}
+
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.Form {
+	width: 90%;
+	background-color: white;
+	padding: 7%;
+	border-radius: 10px;
+}
+
+.Form input {
+	font-family: 'Crete Round', serif;
+}
+
+.Form input:focus {
+	outline-color: #080307;
+}
+
+.modal {
+	width: 400px;
+	padding: 5%;
+	position: absolute;
+	top: 30%;
+	background-color: white;
+	color: #212121;
+	text-align: center;
+	z-index: 1000;
+}
