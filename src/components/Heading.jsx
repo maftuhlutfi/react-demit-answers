@@ -3,7 +3,7 @@ import React from 'react';
 export default function Heading() {
 	return (
 		<div className="Heading">
-          <img className="satan-logo" src="/logo.png" width="100vw" alt="satan-logo" />
+          <img className="satan-logo" src="./logo.png" width="100vw" alt="satan-logo" />
           <h1>
             Hail Friend
           </h1>
